@@ -102,32 +102,38 @@ a:hover{
 
 
 
-#welcome-section{
-    
+#welcome-section{    
     grid-row: 2 / 3;
     height: 100vh;
     background: linear-gradient(53deg,#ccfffc, #ffcccf);
+}
+
+figure{
+    border: 1px dotted black;
+    padding-top: 10px;
 }
 
 figurecaption {
     color: white;
 }
 
-#projects{
-   
-}
+
+
+
 #project-header{
     text-align: center;
-    background-color:
+    font-size: 36p
 }
 #project-tile{
+    padding-top: 15px;
     background: linear-gradient(white, gray, black);
     text-align: center;
     grid-row: 3 / 4;
     border: 2px solid black;
     display: grid;
+    gap: 16px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 11fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 figure:hover{
