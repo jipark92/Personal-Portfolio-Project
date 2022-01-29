@@ -2,8 +2,7 @@
 
 body{
     margin: 0px;
-    background: linear-gradient(53deg,#82f5ed, #d35555);
-
+    background: linear-gradient(180deg,#ccffff,#ffcccc);
     font-family: 'Dongle', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -30,30 +29,72 @@ img{
     position: fixed;
     height: 5%;
     width: 100%;
+    animation-name: rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
 }
+
+
+@keyframes rainbow{
+    0%{
+      background-color: #ccfffc;
+    }
+    50%{
+      background-color: #ffcccf;
+    }
+    100%{
+      background-color: rgb(219, 219, 179);
+    }
+  }
 
 .navlink{
     list-style: none;
     display:flex;
     gap: 20px;
     font-size: 20px;
-   
-    
 }
 
 a{
     text-decoration: none;
-    color: red;
-    
-    
-    
+    color: red;   
 }
 
 a:hover{
     color: blue;
-   
-
 }
+
+
+
+#ball {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(35deg,#ccffff,#ffcccc);
+    border: 1px solid;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+  }
+  
+
+  @keyframes bounce{
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 200px;
+      width: 130px;
+      height: 70px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+
 .welcome-container{
     text-align: center;
     text-shadow: 0 0 0.125em rgb(223, 78, 78), 0 0 0.25em rgb(151, 151, 238);
@@ -76,8 +117,8 @@ figurecaption {
    
 }
 #project-header{
-    
     text-align: center;
+    background-color:
 }
 #project-tile{
     background: linear-gradient(white, gray, black);
@@ -139,6 +180,12 @@ figure:hover{
 }
 
 
+
+#copyright{
+    text-align: center;
+    border-top: 3px solid red;
+    color: black;
+}
 
 
 
