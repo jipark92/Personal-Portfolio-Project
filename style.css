@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background: black;
 }
 
 img{
@@ -19,33 +20,47 @@ img{
     justify-content: space-between;
     align-items: center;
     background-color: blanchedalmond;
-    position
+    grid-row: 1 / 2;
+    padding: 15px;
 }
 
 .navlink{
     list-style: none;
     display:flex;
     gap: 16px;
+    
 }
 
+a{
+    text-decoration: none;
+    color: red;
+}
 .welcome-container{
-  
+ 
+ 
 }
 
 #welcome-section{
     grid-row: 2 / 3;
     height: 100vh;
     background: linear-gradient(white, gray, black);
-    
 }
 
+figurecaption {
+   
+    color: white;
+}
 
-
+#projects{
+   
+}
 #project-header{
     text-align: center;
-    border:1px solid blue;
+   
+    color: white;
 }
 .project-tile{
+    background: linear-gradient(white, gray, black);
     text-align: center;
     grid-row: 3 / 4;
     border: 2px solid black;
@@ -54,6 +69,24 @@ img{
     grid-template-rows: repeat(3, 11fr);
 }
 
+figure{
+    
+}
+
+.showallprojects{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#showall{
+  height:50px;
+  width: 200px;
+  border: none;
+  background-color: black;
+  text-align: center;
+  
+}
 
 #contact-container{
    height: 50vh;
