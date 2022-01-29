@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Montserrat:wght@100&family=Roboto:ital,wght@0,500;1,300&display=swap');
+
 body{
     margin: 0px;
     background: black;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 img{
@@ -17,33 +22,49 @@ img{
 
 #navbar{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: blanchedalmond;
     grid-row: 1 / 2;
-    padding: 15px;
+    position: fixed;
+    height: 8%;
+    width: 100%;
 }
 
 .navlink{
     list-style: none;
     display:flex;
-    gap: 16px;
+    gap: 20px;
+    font-size: 20px;
+   
     
 }
 
 a{
     text-decoration: none;
     color: red;
+    
+}
+
+a:hover{
+    color: blue;
+   
+
 }
 .welcome-container{
- 
+    text-align: center;
  
 }
 
 #welcome-section{
+    
     grid-row: 2 / 3;
     height: 100vh;
-    background: linear-gradient(white, gray, black);
+    background: linear-gradient(
+        53deg,
+        #ccfffc,
+        #ffcccf
+      );
 }
 
 figurecaption {
@@ -55,9 +76,9 @@ figurecaption {
    
 }
 #project-header{
-    text-align: center;
-   
     color: white;
+    text-align: center;
+
 }
 .project-tile{
     background: linear-gradient(white, gray, black);
@@ -69,9 +90,10 @@ figurecaption {
     grid-template-rows: repeat(3, 11fr);
 }
 
-figure{
-    
+figure:hover{
+    transform: scale(1.2);
 }
+
 
 .showallprojects{
     display:flex;
