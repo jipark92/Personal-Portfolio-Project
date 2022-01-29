@@ -3,8 +3,8 @@ body{
 }
 
 img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 
 }
 
@@ -19,6 +19,7 @@ img{
     justify-content: space-between;
     align-items: center;
     background-color: blanchedalmond;
+    position
 }
 
 .navlink{
@@ -27,12 +28,25 @@ img{
     gap: 16px;
 }
 
+.welcome-container{
+  
+}
+
 #welcome-section{
     grid-row: 2 / 3;
     height: 100vh;
+    background: linear-gradient(white, gray, black);
+    
 }
 
+
+
+#project-header{
+    text-align: center;
+    border:1px solid blue;
+}
 .project-tile{
+    text-align: center;
     grid-row: 3 / 4;
     border: 2px solid black;
     display: grid;
@@ -44,18 +58,31 @@ img{
 #contact-container{
    height: 50vh;
    background-color: cadetblue;
-   border: 2px solid red;
+   text-align: center;
+   display:flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+   
+   
 }
 
 #footer {
-    border: 2px solid orange;
+
+  
+}
+
+#contactme{
+  
 }
 
 .contacts{
     display: flex;
     justify-content: space-evenly;
     align-content: center;
+    
 }
+
 
 
 
