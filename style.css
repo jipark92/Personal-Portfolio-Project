@@ -2,7 +2,8 @@
 
 body{
     margin: 0px;
-    background: black;
+    background: linear-gradient(53deg,#82f5ed, #d35555);
+
     font-family: 'Dongle', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -27,7 +28,7 @@ img{
     background-color: blanchedalmond;
     grid-row: 1 / 2;
     position: fixed;
-    height: 8%;
+    height: 5%;
     width: 100%;
 }
 
@@ -44,6 +45,8 @@ a{
     text-decoration: none;
     color: red;
     
+    
+    
 }
 
 a:hover{
@@ -53,22 +56,19 @@ a:hover{
 }
 .welcome-container{
     text-align: center;
- 
+    text-shadow: 0 0 0.125em rgb(223, 78, 78), 0 0 0.25em rgb(151, 151, 238);
 }
+
+
 
 #welcome-section{
     
     grid-row: 2 / 3;
     height: 100vh;
-    background: linear-gradient(
-        53deg,
-        #ccfffc,
-        #ffcccf
-      );
+    background: linear-gradient(53deg,#ccfffc, #ffcccf);
 }
 
 figurecaption {
-   
     color: white;
 }
 
@@ -76,11 +76,10 @@ figurecaption {
    
 }
 #project-header{
-    color: white;
+    
     text-align: center;
-
 }
-.project-tile{
+#project-tile{
     background: linear-gradient(white, gray, black);
     text-align: center;
     grid-row: 3 / 4;
@@ -99,6 +98,7 @@ figure:hover{
     display:flex;
     justify-content: center;
     align-content: center;
+    background-color: black;
 }
 
 #showall{
